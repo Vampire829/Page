@@ -1,0 +1,33 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto 27px auto;
+}
+.logo{
+    margin-left: 80px;
+}
+.navigation{
+    & nav{
+        & a{
+            padding-right: 31px;
+            & span{
+                font-size: 18px;
+                font-weight: 400;
+                
+            }
+         }
+    }
+   
+}
+.header__button{
+    margin-right: 70px;
+   & button{
+    @include button;
+    color: #F7941E;
+    font-size: 18px;
+    font-weight: 400;
+    background: white;
+   }
+    
+}

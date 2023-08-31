@@ -1,0 +1,12 @@
+@mixin button {
+  padding: 13px 24px 8px 24px;
+  border-radius: 5px;
+  border: 1px solid #f7941e;
+  text-transform: uppercase;
+}
+$black: #000;
+$orange: #F7941E;
+$gray: #F1F1F2;
+$white: #F1F1F2;
+$black-grey: #231F20;
+$grayF: #FAFAFA;

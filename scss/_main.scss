@@ -1,0 +1,237 @@
+@import "_box";
+.family {
+  display: flex;
+  height: 700px;
+  background: $gray;
+  &__title {
+    & h1 {
+      padding: 154px 126px 36px 162px;
+      font-size: 56px;
+      font-weight: 600;
+      width: 433px;
+    }
+    & p {
+      font-size: 20px;
+      line-height: 140.625%;
+      font-weight: 400;
+      padding: 0 137px 52px 162px;
+      width: 422px;
+    }
+    & button {
+      @include button;
+      margin: 0 359px 126px 162px;
+      background: #f7941e;
+      color: white;
+    }
+  }
+  &__img {
+  }
+}
+.work {
+  display: flex;
+  background: $gray;
+  &__title {
+    & h2 {
+      padding: 164px 413px 23px 102px;
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 140.625%;
+    }
+    & p {
+      width: 441px;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 140%;
+      padding: 0 166px 35px 102px;
+    }
+    & button {
+      border-radius: 5px;
+      border: 1px solid #f7941e;
+      color: $orange;
+      margin: 0 453px 118px 102px;
+      font-size: 15px;
+      text-transform: uppercase;
+      line-height: 134.766%;
+      padding: 21px 46px 14px 47px;
+      width: 200px;
+    }
+  }
+}
+.toys {
+  margin: 96px auto 137px auto;
+  & h2 {
+    font-size: 32px;
+    font-weight: 400;
+    padding-bottom: 23px;
+    text-align: center;
+  }
+  & p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 135.938%;
+    font-weight: 400;
+  }
+  &__cards {
+    margin-top: 64px;
+    display: flex;
+    gap: 30px;
+  }
+  &__card {
+    width: 270px;
+    height: 436px;
+    background: $grayF;
+    & p {
+      padding: 24px 0 74px 24px;
+      width: 222px;
+      text-align: start;
+    }
+    & span {
+      padding: 0 179px 24px 24px;
+      white-space: nowrap;
+    }
+  }
+}
+
+.activ {
+  background: white;
+  -webkit-box-shadow: -17px 21px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: -17px 21px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: -17px 21px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.ready {
+  background: $orange;
+  &__inner {
+    display: flex;
+    gap: 230px;
+  }
+  &__title {
+    padding-top: 81px;
+    padding-left: 130px;
+    padding-bottom: 69px;
+    & h2 {
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 140.625%;
+    }
+    & p {
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 140.625%; /* 45px */
+    }
+  }
+  &__button {
+    gap: 16px;
+    margin-top: 96px;
+    & button {
+      color: $black;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 134.766%;
+      background: $orange;
+      border-radius: 5px;
+      border: 1px solid #000;
+      padding: 15px 16px 10px 17px;
+      text-transform: uppercase;
+    }
+  }
+}
+.activ__button {
+  background: black !important;
+  color: white !important;
+}
+.blogs {
+  margin: 88px auto 80px auto;
+  & h3 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    padding-bottom: 23px;
+  }
+  & p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 135.938%;
+    text-align: center;
+  }
+  &__inner {
+    display: flex;
+    margin-top: 71px;
+  }
+  &__title {
+    width: 770px;
+    height: 370px;
+    background: #231f20;
+
+    & p {
+      padding: 63px 608px 27px 78px;
+      color: white;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 140.625%;
+    }
+    & h2 {
+      padding: 0 200px 60px 78px;
+      width: 492px;
+      color: #fff;
+      font-size: 48px;
+      font-weight: 400;
+    }
+    & span {
+      padding: 0 602px 49px 78px;
+      color: #fff;
+      font-size: 18px;
+      line-height: 140%;
+    }
+  }
+  &__text {
+    display: flex;
+    margin-top: 40px;
+    gap: 30px;
+    &-left {
+      background: #fff;
+      box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.05);
+      & h2 {
+        font-size: 24px;
+        line-height: 140%;
+        padding: 48px 48px 16px 48px;
+        font-weight: 700;
+        width: 450px;
+        height: 68px;
+      }
+      & p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 140%;
+        text-align: start;
+        padding: 0 48px 16px 48px;
+      }
+      & span {
+        font-size: 14px;
+        line-height: 140%;
+        padding: 0 452px 50px 48px;
+      }
+    }
+    &-right {
+      & h2 {
+        padding: 48px 48px 16px 48px;
+        font-size: 24px;
+        line-height: 140%;
+        font-weight: 700;
+      }
+      & p {
+        padding: 0 48px 16px 48px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 140%;
+        text-align: start;
+      }
+      & span {
+        padding: 0 452px 50px 48px;
+        white-space: nowrap;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 140%;
+      }
+    }
+  }
+}
