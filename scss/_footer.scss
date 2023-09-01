@@ -1,7 +1,32 @@
 .footer {
   margin: 105px auto 35px auto;
+  background: #FAFAFA;
   &__top {
+    margin-left: 242px;
     display: flex;
     gap: 81px;
+    padding-top: 115px;
+    margin-bottom: 50px; 
+    
+    & span{
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 140.625%;
+      
+    }
   }
+  &__img{
+    gap:24px;
+    text-align: center;
+    margin-top: 55px;
+  }
+  &__end{
+    margin-top: 72px;
+    text-align: center;
+    gap: 14px;
+  }
+}
+
+.activ__footer{
+  margin-right: 60px;
 }
